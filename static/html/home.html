@@ -14,54 +14,149 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script>
+			setTimeout(function ()
+			{
+				location.reload();
+			}, 10000);
+		</script>
 		<link rel="stylesheet" href="StudyApp.css" />
 	</head>
 	<body class="container-fluid">
 		<div class = "container-fluid" id="header">
-			<header class="row navbar navbar-fluid navbar-dark flex-column flex-row fixed-top bg-primary">
+			<header class="row navbar navbar-fluid navbar-dark flex-column flex-row fixed-top bg-dark">
 				<div class = "container-fluid">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="home.">
+						<a class="navbar-brand" href="home">
 							The StudyApp
 						</a>
+						<button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#StudyAppOptions" aria-controls="StudyAppOptions" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon">
+							</span>
+						</button>
 					</div>
-					<div class="navbar-header-right">
-						<a class="navbar-brand">
-							glyphcon menu here
-						</a>
+					<div class="collapse navbar-collapse" id="StudyAppOptions">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link text-light" href="SignUp">
+									Sign Up
+								</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link text-light" href="Login">
+									Login
+								</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link text-light" href="newterm">
+									New Term
+								</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link text-light" href="study">
+									Study
+								</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link text-light" href="edit">
+									Edit
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</header>
 		</div>
-		<div class = "container" id="main">
-			<div class="row" id="pagetitle">
-				<div class = "col-sm">
+		<div class = "container-fluid" id="main">
+			<div class="card" id="pagetitle">
+				<div class = "card-body text-center">
 					<h1 class="text-center">
 						Welcome to the StudyApp
 					</h1>
+					<p>
+						The StudyApp is here to help you learn and remember at an ever increasing rate!
+					</p>
 				</div>
 			</div>
 			<div class="row container-fluid" id="buttoncontainer">
 				<div class = "col-sm" id="button">
-					<a href="newterm.html">
-						<button type="button" class = "btn btn-primary btn-sm">
-							New Term
-						</button>
-					</a>
+					<div class="card-body text-center">
+						<a href="newterm.html" class="card-title-text-center">
+							<button type="button" class = "btn btn-primary btn-sm">
+								New Term
+							</button>
+						</a>
+					</div>
 				</div>
 				<div class = "col-sm" id="button">
-					<a href="study.html">
-						<button type="button" class = "btn btn-primary btn-sm">
-							Study
-						</button>
-					</a>
+					<div class="card-body text-center">
+						<a href="study.html" class="card-title-text-center">
+							<button type="button" class = "btn btn-primary btn-sm">
+								Study
+							</button>
+						</a>
+						<p class="card-text">
+							Choose what discipline to study! Hell, study them all!
+						</p>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<a class"btn btn-primary" href="#" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="Maths">
+										Math
+									<ul class="collapse list-group list-group-flush" id="Maths">
+										<li class="list-group-item" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="MathsD">
+											<a href="#" >
+												<a href="#" data-toggle="collapse" id="MathsD">
+													Arithmetic
+												</a>
+												<ul class="collapse list-group list-group-flush">
+													<li class="list-group-item" data-toggle="collapse">
+														Addition
+													</li>
+													<li class="list-group-item" data-toggle="collapse">
+														Subtraction
+													</li>
+												</ul>
+											</a>
+											<a href="#">
+												<a href="#" data-toggle="collapse" id="MathsD">
+													Calculus
+												</a>
+												<ul class="collapse list-group list-group-flush">
+													<li class="list-group-item" data-toggle="collapse">
+														Multivariable
+													</li>
+												</ul>
+											</a>
+										</li>
+									</ul>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">
+									Science
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">
+									Language
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">
+									Art
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class = "col-sm" id="button">
-					<a href="edit.html">
-						<button type="button" class = "btn btn-primary btn-sm" >
-							Edit Term
-						</button>
-					</a>
+					<div class="card-body text-center">
+						<a href="edit.html" class="card-title-text-center">
+							<button type="button" class = "btn btn-primary btn-sm" >
+								Edit Term
+							</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
