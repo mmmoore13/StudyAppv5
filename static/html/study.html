@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			StudyApp
+		</title>
+		<meta http-equiv="refresh" content="60">
+		<script>
+			setTimeout(function () {
+    				location.reload();
+				}, 3000);
+		</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="StudyApp.css" />
+	</head>
+  <body class = "container-fluid">
+		<div class = "container-fluid" id="header">
+			<header class="row navbar navbar-fluid navbar-dark flex-column flex-row fixed-top bg-primary">
+				<div class = "container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="home.html">
+							The StudyApp
+						</a>
+					</div>
+          <div class="navbar-header-center">
+            <a class="navbar-brand">
+              Study
+            </a>
+          </div>
+					<div class="navbar-header-right">
+						<a class="navbar-brand">
+							glyphcon menu here
+						</a>
+					</div>
+				</div>
+			</header>
+		</div>
+    <div class="container-fluid" id="main">
+      <div class="row" id="Questionbracket">
+        <div class="col-sm">
+          <h2 class="text-center">
+            <label for="staticTerm" class="col-sm col-form-label-left">
+              Will you choose wisely?
+            </label>
+          </h2>
+        </div>
+      </div>
+      <div class="row container-fluid" id="buttoncontainer">
+        <div class = "col-sm" id="button">
+          <a href="incorrectanswer.html">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	Is it this answer?
+          	</button>
+					</a>
+          <a href="incorrectanswer.html">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	What about this answer?
+          	</button>
+					</a>
+          <a href="incorrectanswer.html">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	Could this possibly be the correct one?
+          	</button>
+					</a>
+          <a href="study.html">
+						<button type="button" class="btn btn-info btn-md" id="buttons" href="#correctanswer">
+            	The cup of a carpenter.
+          	</button>
+					</a>
+        </div>
+      </div>
+      <div class="row container-fluid" id="buttoncontainer">
+        <div class ="col-sm" id="button">
+          <a href="study.html">
+						<button type="button" class="btn btn-primary btn-sm" id="buttons" href="#skip">
+            	Skip Question
+          	</button>
+					</a>
+        </div>
+      </div>
+    </div>
+  </body>

@@ -1,0 +1,77 @@
+body {
+	width: auto;
+  height: auto;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+	margin: 0 auto;
+}
+#header{
+	padding-top: 5px;
+	margin: auto;
+}
+#pagetitle {
+	padding-top: 5rem;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+#Questionbracket {
+	padding-top: 5rem;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+#termcontainer {
+	padding-top: 1rem;
+	margin: auto;
+	text-align: center;
+}
+#definitioncontainer {
+	margin: auto;
+	text-align: center;
+}
+#QAcontainer {
+	margin: auto;
+}
+#wrongAnswer {
+	color: red;
+}
+#buttoncontainer {
+	column-rule-width: medium;
+	margin: auto auto;
+	text-align: center;
+}
+#button {
+	padding: 15px;
+}
+#buttons{
+	border: 1px solid;
+}
+
+	 /*
+.flex-column {
+	flex-direction: column!important;
+}
+.navbar-expand {
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+.navbar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: .5rem 1rem;
+}
+#header {
+	padding-top: 100px;
+	background-color: grey;
+}
+#home-button {
+	text-align: center;
+}
+.row {
+	text-align: center;
+}
+.col-sm-1 {
+	display: inline-block;
+}
