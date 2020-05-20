@@ -1,0 +1,61 @@
+@page
+@model StudyApp.Pages.SimpleInput.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Term[0].Terms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Term[0].Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Term[0].Definitions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Term[0].Questions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Term[0].Answers)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Term)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TermName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Def)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ask)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fact)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.TermID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.TermID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.TermID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

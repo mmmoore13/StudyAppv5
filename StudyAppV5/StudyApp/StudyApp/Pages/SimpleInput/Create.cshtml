@@ -1,0 +1,54 @@
+@page
+@model StudyApp.Pages.SimpleInput.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Term</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Term.TermName" class="control-label"></label>
+                <input asp-for="Term.TermName" class="form-control" />
+                <span asp-validation-for="Term.TermName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Term.Subject" class="control-label"></label>
+                <input asp-for="Term.Subject" class="form-control" />
+                <span asp-validation-for="Term.Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Term.Def" class="control-label"></label>
+                <input asp-for="Term.Def" class="form-control" />
+                <span asp-validation-for="Term.Def" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Term.Ask" class="control-label"></label>
+                <input asp-for="Term.Ask" class="form-control" />
+                <span asp-validation-for="Term.Ask" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Term.Fact" class="control-label"></label>
+                <input asp-for="Term.Fact" class="form-control" />
+                <span asp-validation-for="Term.Fact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
