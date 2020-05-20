@@ -36,11 +36,12 @@
 @foreach (var item in Model.Term) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Subject)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Terms)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.Definitions)
             </td>

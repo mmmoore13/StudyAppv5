@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{6AD20BA1-B169-4335-97BE-5FF2E95D7028}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppV4/Models/Term.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppV4/Pages/Input/Words/Index.cshtml.cs">
     <Files>
-      <File FileName="StudyAppV4/Models/Term.cs" Line="10" Column="28" />
+      <File FileName="StudyAppV4/Models/Term.cs" Line="3" Column="52" />
       <File FileName="StudyAppV4/Pages/Shared/_Layout.cshtml" Line="25" Column="29" />
-      <File FileName="StudyAppV4/Pages/Flashcard.cshtml" Line="9" Column="22" />
+      <File FileName="StudyAppV4/Pages/Flashcard.cshtml" Line="17" Column="44" />
+      <File FileName="StudyAppV4/Pages/Input/Words/Edit.cshtml" Line="1" Column="17" />
+      <File FileName="StudyAppV4/Pages/Input/Words/Details.cshtml" Line="1" Column="17" />
+      <File FileName="StudyAppV4/Pages/Input/Words/Delete.cshtml" Line="1" Column="17" />
+      <File FileName="StudyAppV4/Pages/Input/Words/Index.cshtml" Line="38" Column="13" />
+      <File FileName="StudyAppV4/Pages/Input/Words/Index.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,12 +16,14 @@
           <Node name="StudyAppV4" expanded="True">
             <Node name="StudyAppV4" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Term.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Input" expanded="True">
-                  <Node name="Words" expanded="True" />
+                  <Node name="Words" expanded="True">
+                    <Node name="Index.cshtml" expanded="True">
+                      <Node name="Index.cshtml.cs" selected="True" />
+                    </Node>
+                  </Node>
                 </Node>
                 <Node name="Shared" expanded="True" />
                 <Node name="Temporary" expanded="True">
