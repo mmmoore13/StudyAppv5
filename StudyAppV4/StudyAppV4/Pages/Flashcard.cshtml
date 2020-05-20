@@ -1,0 +1,49 @@
+﻿@page
+@model StudyAppV4.Pages.FlashcardModel
+@{
+    ViewData["Title"] = "Study";
+}
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body text-center">
+          <h2 class="text-center">
+            <label for="staticTerm" class="col-sm col-form-label-left">
+              Will you choose wisely?
+            </label>
+          </h2>
+        </div>
+      </div>
+      <div class="row container-fluid" id="buttoncontainer">
+        <div class = "col-sm" id="button">
+          <a class="nav-link text-dark" asp-page="/Flashcard">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	Is it this answer?
+          	</button>
+					</a>
+          <a class="nav-link text-dark" asp-page="/Flashcard">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	What about this answer?
+          	</button>
+					</a>
+          <a class="nav-link text-dark" asp-page="/Flashcard">
+						<button type="button" class = "btn btn-info btn-md" id="buttons" href="#wronganswer">
+            	Could this possibly be the correct one?
+          	</button>
+					</a>
+          <a class="nav-link text-dark" asp-page="/Temporary/Correct">
+						<button type="button" class="btn btn-info btn-md" id="buttons" href="#correctanswer">
+            	The cup of a carpenter.
+          	</button>
+					</a>
+        </div>
+      </div>
+      <div class="row container-fluid" id="buttoncontainer">
+        <div class ="col-sm" id="button">
+          <a class="nav-link text-dark" asp-page="/Flashcard">
+			<button type="button" class="btn btn-primary btn-sm" id="buttons" href="#skip">
+            	Skip Question
+          	</button>
+		    </a>
+        </div>
+      </div>
+    </div>

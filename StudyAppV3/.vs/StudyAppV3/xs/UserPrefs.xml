@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{37305832-231C-450C-89A2-DD8230DCF1A8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppV3/appsettings.json">
+    <Files>
+      <File FileName="StudyAppV3/Models/Study.cs" Line="46" Column="16" />
+      <File FileName="StudyAppV3/appsettings.json" Line="10" Column="25" />
+      <File FileName="StudyAppV3/Startup.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudyAppV3" expanded="True">
+            <Node name="StudyAppV3" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StudyAppV3 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

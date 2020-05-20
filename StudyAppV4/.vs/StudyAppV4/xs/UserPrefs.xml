@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{6AD20BA1-B169-4335-97BE-5FF2E95D7028}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppV4/Models/Term.cs">
+    <Files>
+      <File FileName="StudyAppV4/Models/Term.cs" Line="10" Column="28" />
+      <File FileName="StudyAppV4/Pages/Shared/_Layout.cshtml" Line="25" Column="29" />
+      <File FileName="StudyAppV4/Pages/Flashcard.cshtml" Line="9" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudyAppV4" expanded="True">
+            <Node name="StudyAppV4" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Term.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Input" expanded="True">
+                  <Node name="Words" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="Temporary" expanded="True">
+                  <Node name="Correct.cshtml" expanded="True" />
+                </Node>
+                <Node name="About.cshtml" expanded="True" />
+                <Node name="Flashcard.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StudyAppV4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

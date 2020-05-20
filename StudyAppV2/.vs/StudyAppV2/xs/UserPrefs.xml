@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{9B6D9F3A-524D-4D5C-B890-FAB8E379BEA7}|Default">
-  <MonoDevelop.Ide.ItemProperties.StudyAppV2 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StudyAppV2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppV2/Pages/Index.cshtml.cs">
+    <Files>
+      <File FileName="StudyAppV2/Models/Study.cs" Line="31" Column="6" />
+      <File FileName="StudyAppV2/Startup.cs" Line="29" Column="59" />
+      <File FileName="StudyAppV2/appsettings.json" Line="11" Column="28" />
+      <File FileName="StudyAppV2/Program.cs" Line="1" Column="1" />
+      <File FileName="StudyAppV2/Pages/Index.cshtml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudyAppV2" expanded="True">
+            <Node name="StudyAppV2" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" selected="True">
+                <Node name="20200520032615_InitialCreate.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
